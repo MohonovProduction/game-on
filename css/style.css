@@ -704,18 +704,23 @@ img {
   border: 1.5px solid #ffffff;
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 1199px) {
   .banner {
     min-height: 450px;
     margin-top: 93px;
   }
 
   .banner__background-desktop {
-    display: none;
+    display: block;
   }
 
   .banner__background-tablet {
-    display: block;
+    display: none;
+  }
+
+  .banner__background-mobile {
+    display: none;
+
   }
 
   .banner__wrapper {

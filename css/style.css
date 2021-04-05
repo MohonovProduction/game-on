@@ -320,12 +320,12 @@ img {
 
 .main-block__header {
   font-family: "Rubik", "Arial", sans-serif;
-  font-size: 22px;
+  font-size: 42px;
   line-height: 45px;
   margin-top: 0;
   margin-bottom: 2px;
   width: 39.17%;
-  min-width: 380px;
+  min-width: 520px;
 }
 
 .main-block__subtitle {
@@ -585,7 +585,7 @@ img {
   font-weight: 500;
   font-size: 36px;
   line-height: 50px;
-  text-decoration: underline; 
+  text-decoration: underline;
   margin-left: 15px;
   margin-top: 0;
   margin-bottom: 0;
@@ -1129,14 +1129,14 @@ img {
   resize: none; }
   .textarea:hover, .textarea:focus {
     border: 1px solid rgba(255, 255, 255, 0.64);
-    outline: none; 
+    outline: none;
   }
   .textarea::-webkit-input-placeholder {
     font-family: "Rubik", "Arial", sans-serif;
     font-size: 14px;
     line-height: 1.44;
     font-weight: 500;
-    color: rgba(230, 230, 230, 0.64); 
+    color: rgba(230, 230, 230, 0.64);
   }
   .textarea::-ms-input-placeholder {
     font-family: "Rubik", "Arial", sans-serif;
@@ -1149,14 +1149,14 @@ img {
     font-size: 14px;
     line-height: 1.44;
     font-weight: 500;
-    color: rgba(230, 230, 230, 0.64); 
+    color: rgba(230, 230, 230, 0.64);
   }
   .textarea:-ms-input-placeholder {
     font-family: "Rubik", "Arial", sans-serif;
     font-size: 14px;
     line-height: 1.44;
     font-weight: 500;
-    color: rgba(230, 230, 230, 0.64); 
+    color: rgba(230, 230, 230, 0.64);
   }
 
 .footer {

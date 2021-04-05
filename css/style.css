@@ -701,6 +701,7 @@ img {
 .banner__button {
   margin-left: auto;
   margin-right: auto;
+  border: 1.5px solid #ffffff;
 }
 
 @media (max-width: 1199px) {
@@ -1165,8 +1166,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
-  padding-top: 56px;
-  padding-bottom: 36px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 71.44%;
   min-width: 976px;
 

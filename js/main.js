@@ -110,6 +110,19 @@ slidersList.forEach(function (el) {
 
 });
 
+// ОКНО РЕГИСТРАЦИИ
+var modalButton = document.querySelector('.banner__button');
+var logInWindow = document.querySelector('.page__modal');
+var modalCloseButton = document.querySelector('.modal__close');
+
+modalButton.addEventListener('click', function() {
+  logInWindow.classList.add('modal--open');
+})
+
+modalCloseButton.addEventListener('click', function() {
+  logInWindow.classList.remove('modal--open');
+})
+
 // КАРТА
 var mapCoord = [59.938635, 30.323118];
 var mapCoordCenter = [59.938695, 30.323255];

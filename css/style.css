@@ -753,6 +753,9 @@ img {
   margin-right: auto;
   border: 1.5px solid #ffffff;
 }
+.banner__button:hover {
+  cursor: pointer;
+}
 
 @media (min-width: 1199px) {
   .banner {
@@ -914,7 +917,8 @@ img {
 
 /*стили для модалки */
 .modal {
-  display: none; }
+  display: none;
+}
 
 .page__modal {
   display: none;
@@ -946,8 +950,9 @@ img {
   background: linear-gradient(0deg, #5879E8 0%, #5879E8 100%);
   border-radius: 3px;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  z-index: 60; }
+  transform: translate(-50%, -50%);
+  z-index: 60;
+}
 
 .modal__wrapper.modal__wrapper--scroll {
   position: relative;

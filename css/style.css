@@ -440,6 +440,48 @@ img {
   z-index: 1;
 }
 
+.pros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 71.44%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pros__header {
+  position: sticky;
+  top: calc(50% - 1.5em);
+  left: 0px;
+  height: 1.5em;
+}
+
+.pros__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.pros__subtitle a:hover,
+.pros__subtitle a:active,
+.pros__subtitle a:focus {
+  opacity: 0.5;
+}
+
+.pros__subtitle a:visited {
+  color: #122659;
+}
+.pros__subtitle a:link {
+  text-decoration: none;
+  color: #122659;
+}
+
+.pros__text {
+
+}
+
 .our-groups {
   margin-top: -5px;
   background-image: url("../img/background-our-groups-desktop.svg");

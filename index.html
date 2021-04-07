@@ -5,12 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>GameOn - Школа онлайн-гейминга</title>
   <meta name="Description" content="Страница школа онлайн-гейминга">
+  <title>GameOn - Школа онлайн-гейминга</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-
 </head>
 
 <body>
@@ -91,15 +90,16 @@
       <div class="header__wrapper">
 
         <ul class="header__menu">
-          <li class="header__item"><a href="#">Обучение</a></li>
-          <li class="header__item"><a href="#">Группы</a></li>
-          <li class="header__item"><a href="#">Наставники</li></a>
+          <li class="header__item"><a href="#process">Обучение</a></li>
+          <li class="header__item"><a href="#groups">Группы</a></li>
+          <li class="header__item"><a href="#teachers">Наставники</li></a>
           <li class="header__item"><a href="#sign-up">Записаться</a></li>
-          <li class="header__item"><a href="#">Контакты</a></li>
+          <li class="header__item"><a href="#contacts">Контакты</a></li>
         </ul>
 
         <div class="header__contacts">
           <a href="tel:+74959834719" class="header__contact">
+
             <span class="header__contact-icon" aria-label="Иконка телефона">
               <svg width="15" height="15">
                 <use xlink:href="#icon-phone"></use>
@@ -139,7 +139,8 @@
 
     </div>
 
-    <section class="process">
+    <section class="process" id="process">
+
       <div class="process__wrapper">
         <h2 class="process__header">Как проходит обучение</h2>
         <div class="process__text-block">
@@ -152,12 +153,14 @@
               и они передадут тебе весь свой опыт.</span>
           </div>
         </div>
+
         <div class="process_image-block">
           <h3 class="process__subtitle">Так проходят наши занятия</h3>
           <div class="process__image">
             <img src="img/image-desktop.png" alt="На картинке подростки играют на компьютере">
           </div>
         </div>
+
       </div>
     </section>
 
@@ -188,7 +191,7 @@
 
     </section>
 
-    <section class="our-groups">
+    <section class="our-groups" id="groups">
       <div class="our-groups__wrapper">
         <header class="our-groups__header-wrapper">
           <h2 class="our-groups__header">Наши группы</h2>
@@ -233,7 +236,7 @@
       </div>
     </section>
 
-    <section class="teachers slider">
+    <section class="teachers slider" id="teachers">
       <header class="teachers__header-wrapper">
         <h2 class="teachers__header">Наши наставники</h2>
         <p class="teachers__subtitle">Все наши наставники — профессиональные киберспортсмены,
@@ -429,7 +432,7 @@
       </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="contacts__text-wrapper">
         <h2 class="contacts__header">Ждём тебя</h2>
         <div class="contacts__contacts-wrapper">
@@ -547,8 +550,10 @@
         </form>
       </div>
     </section>
+
     <div class="visually-hidden">Icons made by <a href="" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   </main>
+
   <script src="js/ofi.min.js"></script>
   <script src="js/main.js"></script>
 

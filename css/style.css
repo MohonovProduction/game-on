@@ -237,14 +237,28 @@ img {
 }
 
 .header__item a {
+  display: block;
   text-decoration: none;
   color: #122659;
+  transition: transform 0.3s;
+}
+.header__item a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  border-bottom: 2px solid #122659;
+  transition: width 0.3s;
 }
 
 .header__item a:hover,
 .header__item a:focus,
 .header__item a:active {
-  opacity: 0.5;
+  transform: translateY(-3px);
+}
+.header__item a:hover::after {
+  width: 100%;
 }
 
 .header__contacts {
@@ -260,18 +274,32 @@ img {
 }
 
 .header__contact {
+  display: block;
   text-decoration: none;
   color: #122659;
+  transition: transform 0.3s;
 }
 
 .header__contact:hover,
 .header__contact:focus,
 .header__contact:active {
-  opacity: 0.5;
+  transform: scale(1.1);
 }
 
 .header__contact-icon {
+  display: inline-block;
   margin-right: 5px;
+  animation-duration: 2s;
+}
+.header__contact:hover .header__contact-icon {
+  animation-name: bill;
+}
+
+@keyframes bill {
+  0% { transform: rotate(0deg);}
+  20%, 60% { transform: scale(1.2) rotate(-15deg);}
+  40%, 80% { transform: scale(1.2) rotate(15deg);}
+  100%  { transform: rotate(0deg);}
 }
 
 

@@ -199,13 +199,15 @@ img {
 }
 
 .header__logo {
+  display: block;
   margin-right: 4.87%;
+  transition: transform 0.3s;
 }
 
 .header__logo:hover,
 .header__logo:focus,
 .header__logo:active {
-  opacity: 0.5;
+  transform: scale(1.05);
 }
 
 .header__logo svg {

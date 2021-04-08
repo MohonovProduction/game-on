@@ -87,7 +87,7 @@ img {
 }
 
 .button {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   text-align: center;
   width: 166px;
@@ -647,6 +647,16 @@ img {
   line-height: 22px;
   margin-top: 0;
   margin-bottom: 8px;
+}
+
+.our-groups__description {
+  margin: 0;
+  margin-bottom: 15px;
+  transform: scale(0);
+  transition: transform 0.3s;
+}
+.our-groups__item:hover .our-groups__description {
+  transform: scale(1);
 }
 
 .our-groups__price {

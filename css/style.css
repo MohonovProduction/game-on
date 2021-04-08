@@ -1316,12 +1316,26 @@ img {
 }
 
 .footer a {
+  display: inline-block;
   text-decoration: none;
   color: #122659;
+  transition: transform 0.3s;
+}
+.footer a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  border-bottom: 3px solid #122659;
+  transition: width 0.3s;
 }
 
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-  opacity: 0.5;
+  transform: translateY(-3px);
+}
+.footer a:hover::after {
+  width: 100%;
 }

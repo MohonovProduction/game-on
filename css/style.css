@@ -605,6 +605,16 @@ img {
   margin-right: 0;
 }
 
+.our-groups__item:nth-child(n+1) {
+  border: 3px solid #7b97f6;
+}
+.our-groups__item:nth-child(n+2) {
+  border: 3px solid #2f5da1;
+}
+.our-groups__item:nth-child(n+3) {
+  border: 3px solid #5879e8;
+}
+
 .our-groups__item--indigo {
   border-color: #2F5DA1;
 }
